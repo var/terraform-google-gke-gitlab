@@ -31,3 +31,4 @@ variable "region" {
   default     = "us-central1"
   description = "GCP region to deploy resources to"
 }
+
