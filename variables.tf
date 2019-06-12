@@ -14,6 +14,10 @@
  * limitations under the License.
  */
 
+variable "google_credentials" {
+  description = "Credentials for GCP."
+}
+
 variable "project_id" {
   description = "GCP Project to deploy resources"
 }
