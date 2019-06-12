@@ -46,5 +46,5 @@ variable "blockAutoCreatedUsers" {
 
 variable "allow_single_sign_on" {
   type = "list"
-  default = []
+  default = ["saml"]
 }
