@@ -43,8 +43,3 @@ variable "omniauth_enable" {
 variable "blockAutoCreatedUsers" {
   default = true
 }
-
-variable "allow_single_sign_on" {
-  type = "list"
-  default = ["saml"]
-}

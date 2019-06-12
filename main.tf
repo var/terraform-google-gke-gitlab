@@ -359,7 +359,6 @@ data "template_file" "helm_values" {
     CERT_MANAGER_EMAIL = var.certmanager_email
     OMNIAUTH_ENABLED = var.omniauth_enable
     BLOCK_AUTO_CREATED_USERS = var.blockAutoCreatedUsers
-    ALLOW_SINGLE_SIGN_ON = var.allow_single_sign_on
   }
 }
 

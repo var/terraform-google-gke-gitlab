@@ -65,7 +65,7 @@ global:
     omniauth:
           blockAutoCreatedUsers: ${BLOCK_AUTO_CREATED_USERS}
           enabled: ${OMNIAUTH_ENABLED}
-          allow_single_sign_on: ${ALLOW_SINGLE_SIGN_ON}
+          allow_single_sign_on: ["saml"]
 
     ## doc/charts/globals.md#pseudonymizer-settings
     pseudonymizer:
