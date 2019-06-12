@@ -32,3 +32,15 @@ variable "region" {
   description = "GCP region to deploy resources to"
 }
 
+variable "omniauth_enable" {
+  default = false
+}
+
+variable "blockAutoCreatedUsers" {
+  default = true
+}
+
+variable "allow_single_sign_on" {
+  type = "list"
+  default = []
+}

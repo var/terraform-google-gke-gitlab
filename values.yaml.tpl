@@ -16,7 +16,7 @@ global:
 
   ## doc/charts/globals.md#configure-postgresql-settings
   psql:
-    password: 
+    password:
       secret: gitlab-pg
       key: password
     host: ${DB_PRIVATE_IP}
@@ -62,6 +62,10 @@ global:
       connection:
         secret: gitlab-rails-storage
         key: connection
+    omniauth:
+          blockAutoCreatedUsers: ${BLOCK_AUTO_CREATED_USERS}
+          enabled: ${OMNIAUTH_ENABLED}
+          allow_single_sign_on: ${ALLOW_SINGLE_SIGN_ON}
 
     ## doc/charts/globals.md#pseudonymizer-settings
     pseudonymizer:
